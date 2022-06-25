@@ -25,7 +25,8 @@ A real world example for using a stack would be if you were working on a brand n
 Example creating and using a stack, pushing elements and pop (removing) one. Also we measure the size by using the Len() method. 
 
 ![Stack Example 01](stackExample1.png)
-[Link to Stack example code](exampleStacks.py)
+
+* [Link to Stack example code](exampleStacks.py)
 
 ## Practice Problem
 You've been asked by your boss to create a stack of the following items: 

@@ -1,5 +1,4 @@
-"""Example code for creating and traversing a Linked List"""
-
+"""Solution for practice probelm"""
 
 class LinkedList:
     def __init__(self):
@@ -67,46 +66,23 @@ class Node:
 
     
     
-linked_list = LinkedList() # declaring the list to get it started
-print(linked_list)
+linked_list = LinkedList() 
+# step 1
+first_node = Node("chocolate bar")
+linked_list.head = first_node 
+second_node = Node("Flour") 
+third_node = Node("eggs")
+first_node.next = second_node 
+second_node.next = third_node
 
-first_node = Node("hello")
-linked_list.head = first_node # adds hello as the head node
-print(linked_list)
+# step 2
+linked_list.add_first(Node("vegetable shortnening"))
 
-second_node = Node("world") #assigning the second node to a data of world
-third_node = Node("cats")
-first_node.next = second_node #applying that the second node world is attached to the first node hello
-second_node.next = third_node # same as above comment but with 2 and three node
-print(linked_list)
-print() # blank line
+# step 3
+linked_list.add_last(Node("sugar"))
 
+# step 4  
+linked_list.add_before("eggs", Node("butter"))
 
-print("Iteration example below:\n")
-for node in linked_list: # iterates through the list and prints each one to the console
-    print(node)
-
-print() #blank space
-
-print("Adding a new first node to the linked list:\n")
-print("Original List:")
-print(linked_list)
-print() # blank space
-linked_list.add_first(Node("Chicken")) # calls the add first function to put chicken at front
-print(linked_list)
-
-# adding a new node last of the linked list
-print("Adding a new node at the end of the list.\n ")
-print("Original List: ")
-print(linked_list)
-print() # blank space
-linked_list.add_last(Node("Soup"))
-print(linked_list)
-
-# adding a new node before a previous one. 
-print("Adding a new node in the middle somewhere.\n")
-print("Original List: ")
-print(linked_list)
-print() # blank space
-linked_list.add_before("Soup", Node("Beef")) # adds beef before soup
+# step 5 
 print(linked_list)

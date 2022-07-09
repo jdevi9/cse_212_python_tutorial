@@ -37,7 +37,7 @@ You've been asked by your boss to create a stack of the following items:
 - rice
 - cucumbers
 
-However, the next day he's asked ou to remove cucumbers, rice and beans, but instead wants you to add kool-aid. Then he wants you to print out the list to the console. 
+However, the next day he's asked you to remove cucumbers, rice and beans, but instead wants you to add kool-aid. Then he wants you to print out the list to the console. 
 
 Do the following
 - create a new stack
@@ -50,3 +50,4 @@ Do the following
 Trying doing this without looking back at the example above. Use the example above as a guide.
 
 
+[Return to Main](0-welcome.md)

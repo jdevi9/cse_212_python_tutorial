@@ -19,12 +19,29 @@ This is considered unbalanced and has a big O notation of O(n). Thus kind of def
 
 Let's start creating our Binary search tree (BST)
 
+1. We will create a new class called BST
+2. Then create a sub class for our Node.
+3. We are going to set the data to None. 
+
+Look at the code below. 
+
+![Creating a Binary Tree](treeExample1.png)
+
 
 ## Functions
 
+As mentioned before Python does not have a built in BST class. However, like in any other kind of list there are some useful functions you may consider adding to your BST class. Some might be: 
+
+- insert() *searches the tree and adds the new node to the appropriate spot*
+- contains() *looks for a specific value within the tree*
+- remove() *looks for a specific value and removes it*
+- get_height() *returns how big or tall the tree is*
+- traverse() *goes through the BST and makes for loops possible*
+
+Let' create some of those functions together now to add to our BST class. 
 
 ### Inserting
-
+ 
 
 ### Removing
 

@@ -56,18 +56,31 @@ See below for a code sample:
 
 Next function we are going to add to our BST is a contains(). This function will go through the BST and check if a certain value is found within the BST. It is very similar to the insert function, however, instead of inserting something, you're just looking for a value. 
 
+See below for a code sample:
+
 ![Creating a "contains" function](treeExample3.png)
 
 ### Traversing
 
-Next we are going to write a function that will traverse through the tree in an ascending order. We will call it traverse_forward(). This function will not only traverse but put in order the nodes of the BST.
+Next we are going to write a function that will traverse through the tree in an ascending order. We will call it traverse_forward(). This function will not only traverse but put in order the nodes of the BST. You can see this when we print them out. 
 
+See below for a code sample: 
 
-
-### Searching Through
-
+![A traverse function](treeExample3.png)
 
 ## Example 
 
+This is the full code all together from the pieces below. 
+
+[Sample Code](3-trees.md)
 
 ## Practice Problem
+
+Now it's your turn to write a couple of functions for your new BST class. 
+Go ahead and write the 2 functions below:
+
+1. A traverse function but in reverse. You will need to make two functions like the example. One to call it and the actual function.
+2. A function that will find a value and remove it from the tree
+
+See solution: 
+[Solution Code](solutionTree.py)

@@ -41,12 +41,27 @@ As mentioned before Python does not have a built in BST class. However, like in 
 Let' create some of those functions together now to add to our BST class. 
 
 ### Inserting
- 
 
-### Removing
+To insert we are going to need to add a method or another function to our BST class. The first thing is we are going to check if the root of the tree is None. If it is, then our new value will be the new root. 
 
+Moving on, when we insert, we need to determine what side of the Node the new value is going to go on. Remember if the new value is less than the node before, it goes on the left. Then if it's more, it goes on the right. 
+
+With that in mind we are just going to add logic that compares the new value with the root node. If it's less, then we check the left side if there is alreadya Node. If not then we found our spot. However, if there is already something there, we run the method again using the last left node as the node to compare then to continue till we find the spot. Of course if the new value is larger than the root node, we are checking the right side. 
+
+See below for a code sample: 
+
+![Creating the insert function for the BST class](treeExample2.png)
+
+### Contains
+
+Next function we are going to add to our BST is a contains(). This function will go through the BST and check if a certain value is found within the BST. It is very similar to the insert function, however, instead of inserting something, you're just looking for a value. 
+
+![Creating a "contains" function](treeExample3.png)
 
 ### Traversing
+
+Next we are going to write a function that will traverse through the tree in an ascending order. We will call it traverse_forward(). This function will not only traverse but put in order the nodes of the BST.
+
 
 
 ### Searching Through

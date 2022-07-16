@@ -8,6 +8,10 @@ Welcome to the Python Data Structures Tutorial. This to help people become more 
 
 Each module contains descriptions and examples. The end of each module has a practice problem. Solution to the practice problem is provided. 
 
+Code Demo
+
+[Code walkthrough](https://youtu.be/IoBlCDEkyK8)
+
 ## Contact
 
 For questions or comments, please send them to:
